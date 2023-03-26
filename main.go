@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/siddhant-sar/url-shortner/server"
+)
 
 func main() {
-	fmt.Println("It's working!")
+	server.InitGinServer()
 }
